@@ -1,0 +1,30 @@
+{
+  "name": "spacecraft-ws",
+  "version": "1.0.0",
+  "description": "socket.io wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-spacecraft/spacecraft-ws.git"
+  },
+  "keywords": [
+    "spacecraft"
+  ],
+  "author": "moonrailgun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-spacecraft/spacecraft-ws/issues"
+  },
+  "homepage": "https://github.com/node-spacecraft/spacecraft-ws#readme",
+  "dependencies": {
+    "socket.io": "^2.0.3",
+    "spacecraft": "^1.0.2",
+    "spacecraft-logger": "^1.1.2"
+  },
+  "devDependencies": {
+    "socket.io-client": "^2.0.3"
+  }
+}
